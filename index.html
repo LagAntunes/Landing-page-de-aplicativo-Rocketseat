@@ -1,0 +1,79 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <!--Fontes-->
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Inter:ital,opsz,wght@0,14..32,100..900;1,14..32,100..900&display=swap"
+      rel="stylesheet"
+    />
+    <!--Estilos-->
+    <link rel="stylesheet" href="styles/styles.css" />
+    <title>Landing Page de Aplicativo - Zingen</title>
+  </head>
+  <body>
+    <header>
+      <h1>
+        <a href="/"
+          ><img src="./assets/images/logo-header.svg" alt="Logo da Zingen" /></a
+        >Zingen
+      </h1>
+
+      <nav>
+        <ul>
+          <li><a href="#conheca-o-app" class="link">Conheça o app</a></li>
+          <li><a href="#funcionalidades" class="link">Funcionalidades</a></li>
+          <li><a href="#planos-e-precos" class="link">Planos e preços</a></li>
+        </ul>
+
+        <a href="#download" class="btn btn-1 link">Baixar agora</a>
+      </nav>
+    </header>
+
+    <main>
+      <div class="webdoor">
+        <picture>
+          <source
+            media="(min-width: 1280px)"
+            srcset="./assets/images/waves-desktop.svg"
+          />
+          <img src="./assets/images/waves-mobile.svg" alt="Onda sonora" />
+        </picture>
+        <h1 class="h1">Quem canta seus males espanta</h1>
+        <h3 class="h3">Cantar nunca foi tão fácil</h3>
+        <div class="btn-wrapper">
+          <a href="#" class="btn btn-2 link" aria-label="Ver planos"></a>
+
+          <a href="#" class="btn btn-1 link">Baixar agora</a>
+        </div>
+      </div>
+
+      <section id="conheca-o-app">
+        <div class="image-text">
+          <div class="image-text-content">
+            <span class="span">Conheça o app</span>
+
+            <h2 class="h2">O aplicativo perfeito para aprender a cantar</h2>
+            <p class="paragraph">
+              Nosso algoritmo de Inteligência Artificial permite remover a voz
+              original e manter as melodias das músicas. Dessa forma, temos o
+              maior repertório musical para Karaokê! Além disso, ao cantar, sua
+              voz e afinação é comparada pelo algoritmo permitindo uma avaliação
+              precisa da sua performance te ajudando a melhorar seu canto.
+            </p>
+          </div>
+          <picture>
+            <source
+              media="(min-width: 1280px)"
+              srcset="./assets/images/phone-1.svg"
+            />
+            <img src="./assets/images/phone-1-mobile.svg" alt="telefone" />
+          </picture>
+        </div>
+      </section>
+    </main>
+  </body>
+</html>

@@ -1,0 +1,50 @@
+.image-text {
+  display: flex;
+  width: 100%;
+  height: auto;
+  padding: 48px 24px;
+  background-color: var(--surface-color);
+  position: relative;
+
+  @media screen and (min-width: 1280px) {
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    gap: 32px;
+    padding: 80px 32px;
+  }
+
+  & picture {
+    position: absolute;
+    top: -352px;
+    left: 50%;
+    transform: translateX(-50%);
+    width: 371px;
+    height: 393px;
+
+    @media screen and (min-width: 768px) {
+      top: -325px;
+    }
+
+    @media screen and (min-width: 1280px) {
+      position: unset;
+      top: unset;
+      left: unset;
+      transform: unset;
+      width: 544px;
+      height: 558px;
+    }
+  }
+
+  & .image-text-content {
+    display: flex;
+    flex-direction: column;
+    gap: 8px;
+    width: 100%;
+    height: auto;
+
+    @media screen and (min-width: 1280px) {
+      width: 640px;
+    }
+  }
+}

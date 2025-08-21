@@ -1,0 +1,53 @@
+.btn-wrapper {
+  display: flex;
+  flex-direction: row;
+  gap: 16px;
+  width: fit-content;
+  height: auto;
+  margin: 0 auto;
+}
+
+.btn {
+  display: flex;
+  align-items: center;
+  width: fit-content;
+  height: 48px;
+  padding: 12px 24px;
+  border-radius: 8px;
+  position: relative;
+
+  @media screen and (min-width: 1280px) {
+    height: 56px;
+    padding: 16px 32px;
+  }
+
+  &.btn-1 {
+    background-color: var(--text-color-primary);
+    color: var(--background-color);
+
+    &:hover {
+      background: var(--brand-gradient);
+    }
+  }
+
+  &.btn-2[aria-label] {
+    background-color: var(--surface-color);
+    &::after {
+      content: attr(aria-label);
+      background: var(--text-color-primary);
+      background-clip: text;
+      -webkit-background-clip: text;
+      color: transparent;
+      -webkit-text-fill-color: transparent;
+    }
+
+    &:hover {
+      &::after {
+        background: var(--brand-gradient);
+        background-clip: text;
+        -webkit-background-clip: text;
+        -webkit-text-fill-color: transparent;
+      }
+    }
+  }
+}

@@ -1,0 +1,63 @@
+.h1 {
+  font-size: 2.5rem;
+
+  @media screen and (min-width: 1280px) {
+    font-size: 4rem;
+  }
+}
+
+.h2 {
+  font-size: 1.5rem;
+
+  @media screen and (min-width: 1280px) {
+    font-size: 3rem;
+  }
+}
+
+.h3 {
+  font-size: 1.25rem;
+
+  @media screen and (min-width: 1280px) {
+    font-size: 2rem;
+  }
+}
+
+.h1,
+.h2 {
+  color: var(--text-color-primary);
+}
+
+.h1,
+.h2,
+.h3 {
+  line-height: 120%;
+  font-weight: 900;
+}
+
+.h3,
+.paragraph {
+  color: var(--text-color-secondary);
+}
+
+.paragraph,
+.link {
+  font-size: 1rem;
+  line-height: 160%;
+  font-weight: 400;
+}
+
+.link {
+  color: var(--text-color-secondary);
+
+  &:hover {
+    color: var(--brand-color-secondary);
+  }
+}
+
+.span {
+  font-size: 0.875rem;
+  line-height: 100%;
+  font-weight: 500;
+  color: var(--brand-color-primary);
+  text-transform: uppercase;
+}
