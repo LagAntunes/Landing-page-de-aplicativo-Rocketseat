@@ -39,6 +39,10 @@
   color: var(--text-color-secondary);
 }
 
+.h3.light {
+  color: var(--text-color-primary);
+}
+
 .paragraph,
 .link {
   font-size: 1rem;
