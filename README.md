@@ -21,4 +21,4 @@ Trata-se de uma **landing page responsiva** para um aplicativo musical, criada c
 
 ## 🚀 Como visualizar
 
-Você pode acessar a landing page online: [🔗 Clique aqui]([https://seu-link-aqui.com](https://lagantunes.github.io/Landing-page-de-aplicativo-Rocketseat/))
+Você pode acessar a landing page online: [🔗 Clique aqui](https://lagantunes.github.io/Landing-page-de-aplicativo-Rocketseat/)
