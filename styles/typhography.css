@@ -56,7 +56,7 @@
   color: var(--text-color-secondary);
 
   &:hover {
-    color: var(--brand-color-secondary);
+    color: var(--brand-color-primary);
   }
 }
 
