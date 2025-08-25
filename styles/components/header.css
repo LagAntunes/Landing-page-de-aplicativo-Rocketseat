@@ -6,6 +6,11 @@ header {
   height: 72px;
   padding: 16px 24px;
   background-color: var(--background-color);
+  position: fixed;
+  top: 0;
+  left: 0;
+  right: 0;
+  z-index: 99;
 
   @media screen and (min-width: 1280px) {
     height: 96px;
@@ -21,7 +26,7 @@ header {
       display: none;
     }
 
-    @media screen and (min-width: 1280px) {
+    @media screen and (min-width: 1024px) {
       display: flex;
       flex-direction: row;
       align-items: center;

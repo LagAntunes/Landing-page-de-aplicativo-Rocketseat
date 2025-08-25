@@ -1,7 +1,7 @@
 .h1 {
   font-size: 2.5rem;
 
-  @media screen and (min-width: 1280px) {
+  @media screen and (min-width: 1024px) {
     font-size: 4rem;
   }
 }
@@ -9,7 +9,7 @@
 .h2 {
   font-size: 1.5rem;
 
-  @media screen and (min-width: 1280px) {
+  @media screen and (min-width: 1024px) {
     font-size: 3rem;
   }
 }
@@ -17,7 +17,7 @@
 .h3 {
   font-size: 1.25rem;
 
-  @media screen and (min-width: 1280px) {
+  @media screen and (min-width: 1024px) {
     font-size: 2rem;
   }
 }
@@ -35,7 +35,8 @@
 }
 
 .h3,
-.paragraph {
+.paragraph,
+.list-item {
   color: var(--text-color-secondary);
 }
 
@@ -44,7 +45,8 @@
 }
 
 .paragraph,
-.link {
+.link,
+.list-item {
   font-size: 1rem;
   line-height: 160%;
   font-weight: 400;
